@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+    <!--LOGIN FORM-->
+{% block body %}
+<section class="gds_app">
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-sm-12 col-md-12 col-lg-6 custom_access">
+            <form class="deploying_form">
+                <div class="text-center">
+                    <p class="">Welcome</p>
+                    <h2 class="custom_tittle">Sign In to Your Account</h2>
+                </div>
+                <div class="mb-3">
+                  <label for="GDSInputEmail" class="form-label"> Email address</label>
+                  <input type="email" class="form-control custom_input" id="GDSInputEmail" aria-describedby="emailAddress" placeholder="ej: email@goldendigitalsolutions.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="GDSInputPassword" class="form-label">Password</label>
+                  <input type="password" class="form-control custom_input" id="GDSInputPassword"  placeholder="Your Password" required>
+                </div>
+                <div id="emailHelp" class="form-text">Forgot Your Password?<span><a href="#"> Restore Now</a></span></div>
+
+                <div class="row action_button">
+                    <button type="submit" class="btn btn-primary btn-lg custom_action-button"><i class="fa-solid fa-arrow-up-right-from-square"></i> Login Now</button>
+                </div>
+              </form>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+    <!--LOGIN FORM-->
